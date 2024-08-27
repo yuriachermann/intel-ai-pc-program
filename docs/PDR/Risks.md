@@ -23,6 +23,14 @@ This document outlines potential risks associated with the development and demon
     - Develop a contingency plan with fallback options or simplified demos.
     - Prepare a script or guide for manual intervention if needed.
 
+### 2. **Environment Challenges**
+- **Description:** Noisy or crowded environments may interfere with speech recognition or sensor readings.
+- **Impact:** Reduced accuracy of AI models, misinterpretation of commands, or system errors.
+- **Mitigation:**
+    - Conduct environmental assessments and adapt system parameters accordingly.
+    - Use noise-canceling or directional microphones for speech recognition.
+    - Implement robust error handling and feedback mechanisms.
+
 ### 3. **Network Connectivity Issues**
 - **Description:** Dependence on network connectivity for certain features (e.g., cloud-based services) may be disrupted.
 - **Impact:** Inability to access external data or services, reduced system functionality.

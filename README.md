@@ -29,17 +29,19 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li>
-      <a href="#steps">Steps</a>
+      <a href="#reviews">Design Reviews</a>
       <ul>
         <li><a href="#srr">SRR</a></li>
         <li><a href="#pdr">PDR</a></li>
         <li><a href="#cdr">CDR</a></li>
       </ul>
     </li>
+    <li><a href="#get-started">Get Started</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
 
 <!-- ABOUT THE PROJECT -->
 
@@ -49,6 +51,11 @@ The AI Drone project aims to design an efficient and stable prototype interactiv
 This README outlines the key considerations, design steps, and documentation for achieving our mission.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- REVIEWS -->
+
+# Reviews
 
 <!-- SRR -->
 
@@ -87,9 +94,30 @@ Focus on the finalized design and integration.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- GET STARTED -->
+
+# Get Started
+
+```bash
+cd ros2_px4_offboard_example_ws/
+```
+```bash
+source .venv/bin/activate
+conda deactivate
+```
+```bash
+source install/setup.bash
+```
+```bash
+ros2 launch px4_offboard offboard_velocity_control.launch.py
+```
+
+
+
+
 <!-- CONTACT -->
 
-## Contact
+# Contact
 
 - [Yuri Achermann](https://www.linkedin.com/in/yuriachermann/)
   - [yuri.achermann@gmail.com](mailto:yuri.achermann@gmail.com)
@@ -99,7 +127,7 @@ Focus on the finalized design and integration.
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+# Acknowledgments
 
 - [Intel Innovation](https://www.intel.com/content/www/us/en/events/on-event-series/innovation.html)
 - [Ugonna Chikezie](https://www.linkedin.com/in/ugonnachikezie/)
